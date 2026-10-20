@@ -1,0 +1,7 @@
+# Assignment 1.1 — How a Website Works
+
+When a user enters a URL (Uniform Resource Locator) into a web browser such as Google Chrome, the browser acts as a client and first finds the website's server using DNS (Domain Name System). The browser then sends an HTTP (Hypertext Transfer Protocol) or HTTPS (Hypertext Transfer Protocol Secure) request to the server. HTTP is used to transfer data between a client and a server, whereas HTTPS provides secure, encrypted communication. The server processes the request and may communicate with a database to retrieve or store information. It then sends an HTTP response containing resources such as HTML, CSS, JavaScript, and images. The browser interprets these resources and displays the webpage on the screen. This process is called the request-response cycle. A static website displays mostly fixed content that changes only when its files are updated, while a dynamic website can generate or update content based on user input, database information, or other conditions. The browser's Developer Tools, especially the Network tab, can be used to inspect requests and responses, status codes, loading times, and the resources a website downloads.
+
+## Conclusion
+
+A website works through communication between the browser (client), web server, and sometimes a database. HTTP/HTTPS enables data transfer, and the browser converts the received resources into a webpage that the user can view.
